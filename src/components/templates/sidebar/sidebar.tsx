@@ -18,7 +18,7 @@ const Sidebar = () => {
 
           <div className="flex flex-col">
             <p className="text-white capitalize">{`nishyam`}</p>
-            <p className="text-white  underline">{`Visit store`}</p>
+            <p className="text-[13px] font-normal leading-[16px] opacity-[0.6] text-[#FFF]  underline">{`Visit store`}</p>
           </div>
         </div>
 
@@ -74,7 +74,7 @@ const Sidebar = () => {
         </div>
 
         <div className="flex flex-col text-white">
-          <p>{`Available credits`}</p>
+          <p className="text-[13px] opacity-[0.6] font-normal leading-[16px] text-[#FFF]">{`Available credits`}</p>
           <p>{`222.10`}</p>
         </div>
       </article>
