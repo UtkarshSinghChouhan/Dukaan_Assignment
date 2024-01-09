@@ -6,7 +6,7 @@ const SearchBar = () => {
   const inputRef = useRef<HTMLInputElement>(null);
   console.log("first");
   return (
-    <article className="flex items-center gap-[8px] bg-[#F2F2F2] rounded-[6px] px-[16px] py-[9px]">
+    <article className="flex items-center w-[30%] gap-[8px] bg-[#F2F2F2] rounded-[6px] px-[16px] py-[9px]">
       <Image
         src={`/static_assests/icons/header/search.svg`}
         alt={`search_icon`}

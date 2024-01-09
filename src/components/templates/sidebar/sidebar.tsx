@@ -31,7 +31,7 @@ const Sidebar = () => {
       </article>
 
       {/* sidebar links */}
-      <div className="flex-1 flex flex-col gap-[4px]">
+      <div className="flex-1 flex flex-col gap-[4px] overflow-y-scroll">
         {SIDEBAR_DATA.map((obj: ISidebar, idx: number) => {
           const { img_url, name } = obj;
           return (

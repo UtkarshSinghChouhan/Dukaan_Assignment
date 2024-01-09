@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <section className="w-full px-[32px] gap-[16px] py-[12px] items-center flex justify-between bg-white">
+    <section className="border-b border-[#D9D9D9] w-full px-[32px] gap-[16px] py-[12px] items-center flex justify-between bg-white">
       {/* Heading */}
       <div className="flex gap-[16px] flex-1">
         {/* Heading text*/}
@@ -22,7 +22,7 @@ const Header = () => {
             quality={90}
             loading="eager"
           />
-          <p className="text-[12px] font-[400] leading-[16px]">{`How it works`}</p>
+          <p className="text-[12px] text-[#4D4D4D] font-[400] leading-[16px]">{`How it works`}</p>
         </article>
       </div>
 

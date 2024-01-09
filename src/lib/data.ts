@@ -72,10 +72,12 @@ export const CHIP_DATA = [
   {
     text: "Payouts",
     amnt: 22,
+    isSelected: true,
   },
   {
     text: "Refunds",
     amnt: 6,
+    isSelected: false,
   },
 ] as const;
 
@@ -98,7 +100,7 @@ export const TABLE_DATA: Array<ITableData> = [
   },
   {
     orderId: "#281208",
-    status: "Processing",
+    status: "⚪ Processing",
     transactionId: "131634495747",
     refundDate: "Yesterday, 3:00 PM",
     orderAmnt: "₹1,125.00",

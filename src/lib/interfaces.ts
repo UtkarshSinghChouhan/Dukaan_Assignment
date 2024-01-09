@@ -18,6 +18,7 @@ export interface ICard extends ICardData {
 export interface IChip {
   text: string;
   amnt: number;
+  isSelected: boolean;
   id: number;
 }
 
