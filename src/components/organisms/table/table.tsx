@@ -8,7 +8,7 @@ import React, { useRef } from "react";
 const Table = () => {
   const tableRef = useRef<HTMLInputElement>(null);
   return (
-    <div className="flex flex-col bg-white p-[12px] rounded-[8px] gap-[12px] shadow-md">
+    <div className="flex flex-col bg-white p-[12px] rounded-[8px] gap-[12px] shadow-sm">
       <div className="w-full flex justify-between">
         {/* Table Search */}
         <div className="flex text-[#999] items-center gap-[8px] border border-[#D9D9D9] rounded-[4px] px-[16px] py-[9px]">
