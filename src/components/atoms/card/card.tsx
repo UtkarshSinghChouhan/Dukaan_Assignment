@@ -4,7 +4,7 @@ import Image from "next/image";
 const Card = ({ title, amnt, orders, id }: ICard) => {
   return (
     <article
-      className={`flex flex-col flex-1  rounded-[8px] self-start shadow-md
+      className={`flex flex-col flex-1 rounded-[8px]  self-start shadow-md
       ${id === 0 ? "bg-[#146EB4]" : "bg-white"}`}
     >
       <div className="flex flex-col p-[20px] gap-[16px]">
