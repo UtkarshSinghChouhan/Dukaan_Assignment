@@ -33,7 +33,7 @@ const Table = () => {
         {/* Table Filters */}
         <div className="flex gap-[16px]">
           {/* Table Sort*/}
-          <div className="flex px-[14px] bg-white rounded-[4px] gap-[6px] border border-[#D9D9D9] py-[6px]">
+          <div className="flex items-center px-[14px] bg-white rounded-[4px] gap-[6px] border border-[#D9D9D9] py-[6px]">
             <p className="capitalize text-[16px] font-[400] text-[#4D4D4D] leading-[24px]">{`Sort`}</p>
             <Image
               src={`/static_assests/icons/workspace/sort.svg`}

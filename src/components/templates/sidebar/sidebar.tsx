@@ -16,7 +16,7 @@ const Sidebar = () => {
             height={39}
           />
 
-          <div className="flex flex-col">
+          <div className="hidden xl:flex flex-col">
             <p className="text-white capitalize">{`nishyam`}</p>
             <p className="text-[13px] font-normal leading-[16px] opacity-[0.6] text-[#FFF]  underline">{`Visit store`}</p>
           </div>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                   loading="eager"
                 />
 
-                <p className="text-white">{name}</p>
+                <p className="hidden xl:block text-white">{name}</p>
               </div>
             </React.Fragment>
           );
